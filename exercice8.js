@@ -12,7 +12,7 @@ const order = {
 
 const {totalOfMoney, totalOfAmount} = order["cart"].reduce((item, result) => {  
     item.totalOfAmount += result.amount;
-    item.totalOfMoney = item.totalOfMoney + (result.price * result.amount);
+    item.totalOfMoney += (result.price * result.amount);
     
     return item;
 
