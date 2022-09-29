@@ -1,9 +1,9 @@
 
 const myArr = ['face', 'zalo', 'face', 'gmail', 'zalo', 'zalo'];
 
-const myFunc = (inputArr) => {
-    const obj = Object.assign({}, myArr);
-    return obj;
-}
 
-console.log(myFunc(myArr)) 
+const theOccurrences = myArr.reduce((value, items) =>{
+    return value[items] ? ++value[items] : value[items] = 1, value;
+  }, {});
+  
+  console.log(theOccurrences) 
