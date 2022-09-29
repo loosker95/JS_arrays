@@ -9,7 +9,6 @@ const order = {
     address: '12 Giai Phong Street'
 };
 
-
 const {totalOfMoney, totalOfAmount} = order["cart"].reduce((item, result) => {  
     item.totalOfAmount += result.amount;
     item.totalOfMoney += (result.price * result.amount);
@@ -18,7 +17,6 @@ const {totalOfMoney, totalOfAmount} = order["cart"].reduce((item, result) => {
 
 }, {totalOfMoney:0, totalOfAmount:0});
     
-
 console.log('totalOfMoney = ', totalOfMoney,',', 'totalOfAmount = ', totalOfAmount);
     
 
