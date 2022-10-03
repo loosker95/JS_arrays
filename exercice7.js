@@ -1,5 +1,3 @@
-
-
 const arr1 = [
     { make: 'audi', model: 'r8', year: '2012' }, 
     { make: 'audi', model: 'rs5', year: '2013' }, 
@@ -14,11 +12,13 @@ function getObject(name, arr) {
             return `${item.make}`;
         }
     });
+
     // return  `{"${name}" : ${result.toString()}}`;
     return  result;
+
 }
 
-console.log(getObject('kia', arr1));
+console.log(getObject('audi', arr1));
 
 
      
