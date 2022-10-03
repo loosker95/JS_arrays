@@ -13,7 +13,7 @@ function car() {
                 [carBrand[0], carBrand[1]], 
                 [carBrand[2], carBrand[3]], 
                 [carBrand[4]]
-            ]
+            ]       
     );
 }
 
