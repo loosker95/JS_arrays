@@ -1,7 +1,7 @@
 myArray1 = [10, 20, 30, 40, 50];
 let total = 0;
 
-// map method
+// map method multiply array elemets by 10 (Using prototype)
     Array.prototype.myMap = function(){
         for (let i = 0; i < myArray1.length; i++) {
              keys.push(myArray1[i] * 10);
@@ -15,7 +15,7 @@ let total = 0;
 
 
 
-// Filter method that return values up to 30
+// Filter method that return values up to 30 (using this)
     const myObjTwo = {
         myArray2: [10, 20, 30, 40, 50],
         arr: [],
@@ -33,7 +33,7 @@ let total = 0;
 
 
 
-// Reduce method that return the sum of the array(myArray1)
+// Reduce method that return the sum of the array (Using for loop)
     const myObjThree = {
         myReduce: function(){
             for (let i = 0; i < myArray1.length; i++) {
