@@ -1,4 +1,4 @@
-# Exercices
+# Arrays in JavaScript exercices
 
 
 ## 1.  
